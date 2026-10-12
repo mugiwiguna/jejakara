@@ -364,6 +364,8 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 3.2rem); }
 /* ---------- responsive ---------- */
 @media (max-width: 900px) {
   .nav.left, .nav.right .desk { display: none; }
+  /* nav.left hilang -> wordmark jadi anchor kiri, nav.right tetap kanan (tadinya space-between naruh nav di tengah, tabrak wordmark) */
+  .wordmark { position: static; transform: none; }
   .burger { display: block; }
   .hero { grid-template-columns: 1fr; height: auto; min-height: 0; }
   .hero-void { height: 24vh; min-height: 150px; }
