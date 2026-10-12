@@ -228,7 +228,7 @@ function initHome() {
     grid.innerHTML = pick.map((p, i) => cardHTML(p, i === 0 ? "large" : "")).join("");
   }
   const band = $("#craft-band");
-  if (band) band.style.backgroundImage = "url(assets/img/craft-1.png)";
+  if (band) band.style.backgroundImage = "url(assets/img/craft-1.webp)";
 
   // hero toggle
   const toggle = $("#hero-toggle");
